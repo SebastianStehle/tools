@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UploadGCloud": {
+      "commandName": "Project",
+      "commandLineArgs": "upload Google.Api.Gax.dll squidex-dumps"
+    }
+  }
+}

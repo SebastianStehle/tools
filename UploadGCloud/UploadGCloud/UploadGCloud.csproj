@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>upload-gcloud</AssemblyName>
+	<PackAsTool>true</PackAsTool>
+    <ToolCommandName>upload-gcloud</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+	<Version>1.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandDotNet" Version="6.0.1" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.6.0" />
+    <PackageReference Include="MimeTypesMap" Version="1.0.8" />
+  </ItemGroup>
+
+</Project>
